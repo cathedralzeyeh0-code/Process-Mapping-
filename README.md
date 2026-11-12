@@ -9,15 +9,15 @@ This project models how a bicycle manufacturer handles a customer order across o
 - **SAP Signavio** (BPMN 2.0 modelling)
 
 ## ⚙️ How It Works
-**Order submission:** The Customer prepares and sends an order
-**Order validation:** Customer Service checks the order for completeness. An incomplete order is rejected, and customer gets notified
-**Start production:** A complete order triggers a parallel gateway that launches two streams of work at once
-**Warehouse stream:** The warehouse create a part lists and check availiability
-**Production stream:** Production prepares for manufacturing
-**Manufacturing:** Once both streams are ready, the bicycle is manufactured
-**Logistics:** Customer Service prepares logistics and instruct the logistics Service Provider
-**Delivery:** The provider picks up the bicycle, ships it to the customer
-**Confirmation:** Customer receives a shipping confirmation and confirms delivery, which completes the process
+1. **Order submission:** The Customer prepares and sends an order
+2. **Order validation:** Customer Service checks the order for completeness. An incomplete order is rejected, and customer gets notified
+3. **Start production:** A complete order triggers a parallel gateway that launches two streams of work at once
+4. **Warehouse stream:** The warehouse create a part lists and check availiability
+5. **Production stream:** Production prepares for manufacturing
+6. **Manufacturing:** Once both streams are ready, the bicycle is manufactured
+7. **Logistics:** Customer Service prepares logistics and instruct the logistics Service Provider
+8. **Delivery:** The provider picks up the bicycle, ships it to the customer
+9. **Confirmation:** Customer receives a shipping confirmation and confirms delivery, which completes the process
 
 ## 🧠 Skills Demonstrated
 - Business process modelling and BPMN 2.0 notation
