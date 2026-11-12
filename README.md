@@ -12,7 +12,7 @@ This project models how a bicycle manufacturer handles a customer order across o
 1. **Order submission:** The Customer prepares and sends an order
 2. **Order validation:** Customer Service checks the order for completeness. An incomplete order is rejected, and customer gets notified
 3. **Start production:** A complete order triggers a parallel gateway that launches two streams of work at once
-4. **Warehouse stream:** The warehouse create a part lists and check availiability
+4. **Warehouse stream:** The warehouse create a part lists and check availability
 5. **Production stream:** Production prepares for manufacturing
 6. **Manufacturing:** Once both streams are ready, the bicycle is manufactured
 7. **Logistics:** Customer Service prepares logistics and instruct the logistics Service Provider
