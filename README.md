@@ -1,2 +1,37 @@
-# Process-Mapping-
-This repo shows a process mapping of bike production project done in SAP Signavio
+# 🔄️ Process Modeling: Bicycle Production
+
+## 📝 Project Overview 
+This project models how a bicycle manufacturer handles a customer order across organizational boundaries. The diagram shows who does what, in what oder, what decisions are made and which activities happen in parallel.
+
+**Business goal:** Make the order-to-delivery flow explicit so that handovers, decision points and dependencies can be understood, analyzed and improved.
+
+## 🛠️ Tool Used
+- **SAP Signavio** (BPMN 2.0 modelling)
+
+## ⚙️ How It Works
+**Order submission:** The Customer prepares and sends an order
+**Order validation:** Customer Service checks the order for completeness. An incomplete order is rejected, and customer gets notified
+**Start production:** A complete order triggers a parallel gateway that launches two streams of work at once
+**Warehouse stream:** The warehouse create a part lists and check availiability
+**Production stream:** Production prepares for manufacturing
+**Manufacturing:** Once both streams are ready, the bicycle is manufactured
+**Logistics:** Customer Service prepares logistics and instruct the logistics Service Provider
+**Delivery:** The provider picks up the bicycle, ships it to the customer
+**Confirmation:** Customer receives a shipping confirmation and confirms delivery, which completes the process
+
+## 🧠 Skills Demonstrated
+- Business process modelling and BPMN 2.0 notation
+- Translating written scenario into structured, readable process diagram
+- Identifying decision points, exception paths, and parallel work
+- Clear documentation and communication of process to a non-technical audience
+
+## 💡What I Learned
+- How to break a business scenario into participants and responsiblities
+- How to model decisions and exceptions
+- How to explain process logic clearly
+
+## 🔗 Preview
+![Process Mapping Screenshot](https://github.com/cathedralzeyeh0-code/Process-Mapping-/blob/main/Bike%20Production.png)
+
+
+  
